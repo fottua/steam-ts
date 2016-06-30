@@ -1,6 +1,6 @@
 {
   "main": {
-    "ts_ip": "tt5us.bearware.dk",
+    "ts_ip": "tt5eu.bearware.dk",
     "q_port": 10335,
     "q_username": "micro12",
     "q_password": "rjkjltw",
@@ -10,7 +10,7 @@
     "minlevel": 1,
     "wantedrankid": 2,
     "editdescription": false,
-    "clanabbreviation": ""
+    "clanabbreviation": "rotito1"
   },
   "twofactor": {
     "enabled": false
