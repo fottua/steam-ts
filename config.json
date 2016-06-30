@@ -1,11 +1,11 @@
 {
   "main": {
-    "ts_ip": "",
-    "q_port": 10011,
-    "q_username": "",
-    "q_password": "",
-    "bot_username": "",
-    "bot_password": "",
+    "ts_ip": "tt5us.bearware.dk",
+    "q_port": 10335,
+    "q_username": "micro12",
+    "q_password": "rjkjltw",
+    "bot_username": "micro13",
+    "bot_password": "rjkjltw",
     "q_vserverid": 1,
     "minlevel": 1,
     "wantedrankid": 2,
