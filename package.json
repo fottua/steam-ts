@@ -1,43 +1,24 @@
 {
-  "name": "steam-ts",
-  "version": "1.2.5c",
-  "description": "Allow a steambot created by you to automatically maintain your TeamSpeak 3 server.",
-  "main": "lib/launch.js",
-  "scripts": {
-    "start": "node index.js"
+  "name": "webrtc",
+  "description": "user webrtc",
+  "version": "0.0.2-1",
+  "engines": {
+    "node": ">= 0.6.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nikitavondel/steam-ts.git"
+    "url": "https://github.com/fottua/webrtc.git"
   },
-  "keywords": [
-    "steam",
-    "teamspeak",
-    "ts",
-    "steambot",
-    "verification"
-  ],
-  "author": "nikitavondel <nikitaab98@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nikitavondel/steam-ts/issues"
-  },
-  "homepage": "https://github.com/nikitavondel/steam-ts#readme",
   "dependencies": {
-    "node-teamspeak": "~1.0.10",
-    "crypto": "~0.0.3",
-    "mkdirp": "~0.5.1",
-    "path": "~0.12.7",
-    "steam-totp": "~1.3.0",
-    "steam-user" : "~3.5.0",
-    "async": "~1.5.2",
-    "readline": "~1.3.0",
-    "steamid": "~1.0.0"
+    "discord.io": "latest",
+    "webrtc.io-client": "latest",
+    "express": "3.1.0",
+    "ws": "latest"
   },
-  "files": [
-    "lib/",
-    "config.json",
-    "LICENSE",
-    "README.md"
-  ]
+  "subdomain": "WebRTC",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "nik bir"
 }
+
